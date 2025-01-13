@@ -1,0 +1,594 @@
+"C:\Program Files\Java\jdk-17.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\lib\idea_rt.jar=50923:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin" -Dfile.encoding=UTF-8 -classpath D:\Uni\Uni\Semester\WS24x25\gurobi_sat_main\out\production\gurobi_firstTry;D:\Uni\Uni\Semester\WS24x25\gurobi_download\win64\lib\gurobi.jar main
+Zunächst werden die Eingabeparameter abgefragt.
+Zur Auswahl stehen folgende Fälle: 
+[1] testStuffClass
+[2] OneSolverNxN
+[3] RowSolverNxN
+Übergebe einen Wert zwischen 1 und 3 zur Auswahl:3
+Gib einen Wert für die Dimensionierung n ein: 5
+Gib einen Wert für die Anzahl möglicher auftretender Farben ein (Wert zwischen 2 und 40): 5
+Gib einen Wert für die Fehlertoleranz ein: 50
+Gib einen Wert für das Zeitlimit in Sekunden zur Lösungsfindung ein:5
+Gib einen Wert für den Seed ein:5
+Dimensionierung: 5x5
+Anzahl möglicher verschiedener Farben: 5
+2
+Zufällig generierte Farben: [3, 4, 4, 1, 5, 2, 4, 3, 1, 2, 1, 3, 3, 4, 2, 2, 5, 3, 4, 5, 1, 4, 3, 3, 1, 2, 1, 3, 2, 4, 2, 3, 5, 1, 5, 4, 3, 1, 5, 1]
+Zufällig generierte Symbole: [1, 1, 2, 2, 2, 2, 1, 2, 2, 1, 2, 2, 2, 1, 2, 2, 1, 2, 2, 1, 1, 2, 2, 1, 2, 1, 2, 2, 1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 1, 1]
+Generierte Felder:  00 01 02 03 04 10 11 12 13 14 20 21 22 23 24 30 31 32 33 34 40 41 42 43 44
+Randomisierte ID Zuweisung: [8, 3, 2, 23, 6, 5, 20, 16, 14, 13, 18, 9, 24, 19, 22, 21, 7, 10, 12, 4, 1, 11, 15, 17, 25]
+Initialisierte Puzzleteile (Farben):
+ id:8 edges:0340  id:8 edges:0034  id:8 edges:4003  id:8 edges:3400  id:3 edges:0413  id:3 edges:3041  id:3 edges:1304  id:3 edges:4130  id:2 edges:0524  id:2 edges:4052  id:2 edges:2405  id:2 edges:5240  id:23 edges:0435  id:23 edges:5043  id:23 edges:3504  id:23 edges:4350  id:6 edges:0014  id:6 edges:4001  id:6 edges:1400  id:6 edges:0140  id:5 edges:4210  id:5 edges:0421  id:5 edges:1042  id:5 edges:2104  id:20 edges:1332  id:20 edges:2133  id:20 edges:3213  id:20 edges:3321  id:16 edges:2423  id:16 edges:3242  id:16 edges:2324  id:16 edges:4232  id:14 edges:3254  id:14 edges:4325  id:14 edges:5432  id:14 edges:2543  id:13 edges:1032  id:13 edges:2103  id:13 edges:3210  id:13 edges:0321  id:18 edges:1450  id:18 edges:0145  id:18 edges:5014  id:18 edges:4501  id:9 edges:3144  id:9 edges:4314  id:9 edges:4431  id:9 edges:1443  id:24 edges:2331  id:24 edges:1233  id:24 edges:3123  id:24 edges:3312  id:19 edges:5123  id:19 edges:3512  id:19 edges:2351  id:19 edges:1235  id:22 edges:3011  id:22 edges:1301  id:22 edges:1130  id:22 edges:0113  id:21 edges:5320  id:21 edges:0532  id:21 edges:2053  id:21 edges:3205  id:7 edges:4423  id:7 edges:3442  id:7 edges:2344  id:7 edges:4234  id:10 edges:3354  id:10 edges:4335  id:10 edges:5433  id:10 edges:3543  id:12 edges:2153  id:12 edges:3215  id:12 edges:5321  id:12 edges:1532  id:4 edges:1041  id:4 edges:1104  id:4 edges:4110  id:4 edges:0411  id:1 edges:2300  id:1 edges:0230  id:1 edges:0023  id:1 edges:3002  id:11 edges:2103  id:11 edges:3210  id:11 edges:0321  id:11 edges:1032  id:15 edges:5501  id:15 edges:1550  id:15 edges:0155  id:15 edges:5015  id:17 edges:5105  id:17 edges:5510  id:17 edges:0551  id:17 edges:1055  id:25 edges:4001  id:25 edges:1400  id:25 edges:0140  id:25 edges:0014 
+Initialisierte Puzzleteile (Symbole):
+ id:8 symbols:0110  id:8 symbols:0011  id:8 symbols:1001  id:8 symbols:1100  id:3 symbols:0222  id:3 symbols:2022  id:3 symbols:2202  id:3 symbols:2220  id:2 symbols:0221  id:2 symbols:1022  id:2 symbols:2102  id:2 symbols:2210  id:23 symbols:0121  id:23 symbols:1012  id:23 symbols:2101  id:23 symbols:1210  id:6 symbols:0012  id:6 symbols:2001  id:6 symbols:1200  id:6 symbols:0120  id:5 symbols:2120  id:5 symbols:0212  id:5 symbols:2021  id:5 symbols:1202  id:20 symbols:1222  id:20 symbols:2122  id:20 symbols:2212  id:20 symbols:2221  id:16 symbols:1121  id:16 symbols:1112  id:16 symbols:2111  id:16 symbols:1211  id:14 symbols:1212  id:14 symbols:2121  id:14 symbols:1212  id:14 symbols:2121  id:13 symbols:2021  id:13 symbols:1202  id:13 symbols:2120  id:13 symbols:0212  id:18 symbols:1210  id:18 symbols:0121  id:18 symbols:1012  id:18 symbols:2101  id:9 symbols:1121  id:9 symbols:1112  id:9 symbols:2111  id:9 symbols:1211  id:24 symbols:1212  id:24 symbols:2121  id:24 symbols:1212  id:24 symbols:2121  id:19 symbols:2211  id:19 symbols:1221  id:19 symbols:1122  id:19 symbols:2112  id:22 symbols:1021  id:22 symbols:1102  id:22 symbols:2110  id:22 symbols:0211  id:21 symbols:2210  id:21 symbols:0221  id:21 symbols:1022  id:21 symbols:2102  id:7 symbols:1121  id:7 symbols:1112  id:7 symbols:2111  id:7 symbols:1211  id:10 symbols:2112  id:10 symbols:2211  id:10 symbols:1221  id:10 symbols:1122  id:12 symbols:2112  id:12 symbols:2211  id:12 symbols:1221  id:12 symbols:1122  id:4 symbols:1012  id:4 symbols:2101  id:4 symbols:1210  id:4 symbols:0121  id:1 symbols:2100  id:1 symbols:0210  id:1 symbols:0021  id:1 symbols:1002  id:11 symbols:1102  id:11 symbols:2110  id:11 symbols:0211  id:11 symbols:1021  id:15 symbols:2102  id:15 symbols:2210  id:15 symbols:0221  id:15 symbols:1022  id:17 symbols:2102  id:17 symbols:2210  id:17 symbols:0221  id:17 symbols:1022  id:25 symbols:2002  id:25 symbols:2200  id:25 symbols:0220  id:25 symbols:0022 
+Farben nach Randomisierung:
+ id:8 edges:3400  id:8 edges:0340  id:8 edges:0034  id:8 edges:4003  id:3 edges:3041  id:3 edges:1304  id:3 edges:4130  id:3 edges:0413  id:2 edges:5240  id:2 edges:0524  id:2 edges:4052  id:2 edges:2405  id:23 edges:0435  id:23 edges:5043  id:23 edges:3504  id:23 edges:4350  id:6 edges:0140  id:6 edges:0014  id:6 edges:4001  id:6 edges:1400  id:5 edges:4210  id:5 edges:0421  id:5 edges:1042  id:5 edges:2104  id:20 edges:3213  id:20 edges:3321  id:20 edges:1332  id:20 edges:2133  id:16 edges:2423  id:16 edges:3242  id:16 edges:2324  id:16 edges:4232  id:14 edges:2543  id:14 edges:3254  id:14 edges:4325  id:14 edges:5432  id:13 edges:1032  id:13 edges:2103  id:13 edges:3210  id:13 edges:0321  id:18 edges:5014  id:18 edges:4501  id:18 edges:1450  id:18 edges:0145  id:9 edges:4314  id:9 edges:4431  id:9 edges:1443  id:9 edges:3144  id:24 edges:3123  id:24 edges:3312  id:24 edges:2331  id:24 edges:1233  id:19 edges:5123  id:19 edges:3512  id:19 edges:2351  id:19 edges:1235  id:22 edges:0113  id:22 edges:3011  id:22 edges:1301  id:22 edges:1130  id:21 edges:0532  id:21 edges:2053  id:21 edges:3205  id:21 edges:5320  id:7 edges:4234  id:7 edges:4423  id:7 edges:3442  id:7 edges:2344  id:10 edges:4335  id:10 edges:5433  id:10 edges:3543  id:10 edges:3354  id:12 edges:3215  id:12 edges:5321  id:12 edges:1532  id:12 edges:2153  id:4 edges:1104  id:4 edges:4110  id:4 edges:0411  id:4 edges:1041  id:1 edges:0230  id:1 edges:0023  id:1 edges:3002  id:1 edges:2300  id:11 edges:1032  id:11 edges:2103  id:11 edges:3210  id:11 edges:0321  id:15 edges:0155  id:15 edges:5015  id:15 edges:5501  id:15 edges:1550  id:17 edges:5105  id:17 edges:5510  id:17 edges:0551  id:17 edges:1055  id:25 edges:1400  id:25 edges:0140  id:25 edges:0014  id:25 edges:4001 
+Symbole nach Randomisierung:
+ id:8 symbols:1100  id:8 symbols:0110  id:8 symbols:0011  id:8 symbols:1001  id:3 symbols:2022  id:3 symbols:2202  id:3 symbols:2220  id:3 symbols:0222  id:2 symbols:2210  id:2 symbols:0221  id:2 symbols:1022  id:2 symbols:2102  id:23 symbols:0121  id:23 symbols:1012  id:23 symbols:2101  id:23 symbols:1210  id:6 symbols:0120  id:6 symbols:0012  id:6 symbols:2001  id:6 symbols:1200  id:5 symbols:2120  id:5 symbols:0212  id:5 symbols:2021  id:5 symbols:1202  id:20 symbols:2212  id:20 symbols:2221  id:20 symbols:1222  id:20 symbols:2122  id:16 symbols:1121  id:16 symbols:1112  id:16 symbols:2111  id:16 symbols:1211  id:14 symbols:2121  id:14 symbols:1212  id:14 symbols:2121  id:14 symbols:1212  id:13 symbols:2021  id:13 symbols:1202  id:13 symbols:2120  id:13 symbols:0212  id:18 symbols:1012  id:18 symbols:2101  id:18 symbols:1210  id:18 symbols:0121  id:9 symbols:1112  id:9 symbols:2111  id:9 symbols:1211  id:9 symbols:1121  id:24 symbols:1212  id:24 symbols:2121  id:24 symbols:1212  id:24 symbols:2121  id:19 symbols:2211  id:19 symbols:1221  id:19 symbols:1122  id:19 symbols:2112  id:22 symbols:0211  id:22 symbols:1021  id:22 symbols:1102  id:22 symbols:2110  id:21 symbols:0221  id:21 symbols:1022  id:21 symbols:2102  id:21 symbols:2210  id:7 symbols:1211  id:7 symbols:1121  id:7 symbols:1112  id:7 symbols:2111  id:10 symbols:2211  id:10 symbols:1221  id:10 symbols:1122  id:10 symbols:2112  id:12 symbols:2211  id:12 symbols:1221  id:12 symbols:1122  id:12 symbols:2112  id:4 symbols:2101  id:4 symbols:1210  id:4 symbols:0121  id:4 symbols:1012  id:1 symbols:0210  id:1 symbols:0021  id:1 symbols:1002  id:1 symbols:2100  id:11 symbols:1021  id:11 symbols:1102  id:11 symbols:2110  id:11 symbols:0211  id:15 symbols:0221  id:15 symbols:1022  id:15 symbols:2102  id:15 symbols:2210  id:17 symbols:2102  id:17 symbols:2210  id:17 symbols:0221  id:17 symbols:1022  id:25 symbols:2200  id:25 symbols:0220  id:25 symbols:0022  id:25 symbols:2002 
+Mische Puzzleteile:
+ id:15 edges:0155  id:22 edges:0113  id:18 edges:5014  id:21 edges:0532  id:23 edges:0435  id:6 edges:0140  id:8 edges:3400  id:1 edges:0230  id:20 edges:3213  id:5 edges:4210  id:19 edges:5123  id:13 edges:1032  id:24 edges:3123  id:2 edges:5240  id:9 edges:4314  id:7 edges:4234  id:14 edges:2543  id:12 edges:3215  id:3 edges:3041  id:10 edges:4335  id:4 edges:1104  id:16 edges:2423  id:17 edges:5105  id:25 edges:1400  id:11 edges:1032 
+
+
+
+
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "OneSolverNxN.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+aaaaaaaaaaaaaa0
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 180730 rows, 2500 columns and 364760 nonzeros
+Model fingerprint: 0x07ceeabe
+Variable types: 0 continuous, 2500 integer (2500 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 178048 rows and 1344 columns
+Presolve time: 0.11s
+Presolved: 2682 rows, 1156 columns, 29866 nonzeros
+Variable types: 0 continuous, 1156 integer (1156 binary)
+Performing another presolve...
+Presolve removed 150 rows and 8 columns
+Presolve time: 0.11s
+
+Root relaxation: objective 0.000000e+00, 444 iterations, 0.03 seconds (0.03 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   65          -    0.00000      -     -    0s
+H    0     0                       0.0000000    0.00000  0.00%     -    0s
+     0     0    0.00000    0   57    0.00000    0.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 17
+  Clique: 25
+  Zero half: 44
+
+Explored 1 nodes (1682 simplex iterations) in 0.51 seconds (0.47 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimale Lösung gefunden:
+Gesamtgewicht verletzter Klauseln mit definierter Gewichtung: 0.0
+Zuweisung der Puzzleteile zu den Feldern:
+Feld (0, 0) -> Puzzleteil 1 Rotation 0
+Feld (0, 1) -> Puzzleteil 21 Rotation 0
+Feld (0, 2) -> Puzzleteil 18 Rotation 3
+Feld (0, 3) -> Puzzleteil 5 Rotation 1
+Feld (0, 4) -> Puzzleteil 8 Rotation 2
+Feld (1, 0) -> Puzzleteil 11 Rotation 2
+Feld (1, 1) -> Puzzleteil 7 Rotation 2
+Feld (1, 2) -> Puzzleteil 9 Rotation 0
+Feld (1, 3) -> Puzzleteil 20 Rotation 3
+Feld (1, 4) -> Puzzleteil 3 Rotation 0
+Feld (2, 0) -> Puzzleteil 17 Rotation 1
+Feld (2, 1) -> Puzzleteil 14 Rotation 2
+Feld (2, 2) -> Puzzleteil 12 Rotation 3
+Feld (2, 3) -> Puzzleteil 19 Rotation 2
+Feld (2, 4) -> Puzzleteil 23 Rotation 1
+Feld (3, 0) -> Puzzleteil 2 Rotation 0
+Feld (3, 1) -> Puzzleteil 16 Rotation 3
+Feld (3, 2) -> Puzzleteil 24 Rotation 1
+Feld (3, 3) -> Puzzleteil 10 Rotation 2
+Feld (3, 4) -> Puzzleteil 15 Rotation 1
+Feld (4, 0) -> Puzzleteil 25 Rotation 0
+Feld (4, 1) -> Puzzleteil 4 Rotation 0
+Feld (4, 2) -> Puzzleteil 22 Rotation 2
+Feld (4, 3) -> Puzzleteil 13 Rotation 1
+Feld (4, 4) -> Puzzleteil 6 Rotation 2
+
+------------------------------------------------------------------------------------------
+/       0        //       0        //       0        //       0        //       0        /
+/       0        //       0        //       0        //       0        //       0        /
+/  0 0 (1) 2 2   //  2 1 (21) 2 5  //  5 1 (18) 1 1  //  1 2 (5) 2 4   //  4 1 (8) 0 0   /
+/       1        //       2        //       2        //       1        //       1        /
+/       3        //       3        //       4        //       2        //       3        /
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+/       3        //       3        //       4        //       2        //       3        /
+/       2        //       1        //       1        //       2        //       2        /
+/  0 0 (11) 1 2  //  2 2 (7) 1 4   //  4 2 (9) 1 3   //  3 2 (20) 1 1  //  1 2 (3) 0 0   /
+/       1        //       1        //       1        //       2        //       2        /
+/       1        //       4        //       1        //       3        //       4        /
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+/       5        //       4        //       2        //       2        //       5        /
+/       2        //       2        //       2        //       1        //       1        /
+/  0 0 (17) 2 5  //  5 1 (14) 1 3  //  3 2 (12) 1 1  //  1 2 (19) 1 3  //  3 2 (23) 0 0  /
+/       1        //       2        //       1        //       2        //       1        /
+/       1        //       2        //       5        //       5        //       4        /
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+/       5        //       4        //       3        //       3        //       5        /
+/       2        //       1        //       2        //       1        //       1        /
+/  0 0 (2) 2 2   //  2 1 (16) 2 2  //  2 1 (24) 1 3  //  3 2 (10) 1 5  //  5 2 (15) 0 0  /
+/       1        //       1        //       2        //       2        //       2        /
+/       4        //       3        //       1        //       4        //       1        /
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+/       1        //       1        //       1        //       2        //       4        /
+/       2        //       2        //       1        //       1        //       2        /
+/  0 0 (25) 2 4  //  4 1 (4) 1 1   //  1 2 (22) 1 3  //  3 2 (13) 2 1  //  1 1 (6) 0 0   /
+/       0        //       0        //       0        //       0        //       0        /
+/       0        //       0        //       0        //       0        //       0        /
+------------------------------------------------------------------------------------------
+Anzahl Duplikat-IDs: 0
+Anzahl äußerer Kanten ungleich grau: 0
+Anzahl ungleicher Nachbarfarben waagerecht: 0
+Anzahl ungleicher Nachbarfarben senkrecht: 13
+Anzahl gleicher benachbarter Symbole waagerecht: 0
+Anzahl gleicher benachbarter Symbole senkrecht: 2
+Gesamtsumme verletzter Eigenschaften = 15
+Anzahl falscher Paare und außen != grau: 13
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "RowPermutations.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1318 rows, 100 columns and 2728 nonzeros
+Model fingerprint: 0x17333fc5
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 1304 rows and 93 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Keine optimale Lösung gefunden.
+Keine weitere Permutation gefunden für Reihe 0 gefunden.
+
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "RowPermutations.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1183 rows, 100 columns and 2513 nonzeros
+Model fingerprint: 0x7855079d
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 1183 rows and 100 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimale Lösung gefunden / Permutation für Reihe 1:
+Gesamtgewicht verletzter Klauseln mit definierter Gewichtung: 0.0
+Zuweisung der Puzzleteile zu den Feldern:
+Feld (0, 0) -> Puzzleteil 3 Rotation 2
+Feld (0, 1) -> Puzzleteil 20 Rotation 1
+Feld (0, 2) -> Puzzleteil 9 Rotation 2
+Feld (0, 3) -> Puzzleteil 7 Rotation 0
+Feld (0, 4) -> Puzzleteil 11 Rotation 0
+
+------------------------------------------------------------------------------------------
+/       4        //       3        //       1        //       4        //       1        /
+/       2        //       2        //       1        //       1        //       1        /
+/  0 0 (3) 2 1   //  1 1 (20) 2 3  //  3 1 (9) 2 4   //  4 1 (7) 2 2   //  2 1 (11) 0 0  /
+/       2        //       2        //       1        //       1        //       2        /
+/       3        //       2        //       4        //       3        //       3        /
+------------------------------------------------------------------------------------------
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "RowPermutations.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1184 rows, 100 columns and 2518 nonzeros
+Model fingerprint: 0x51ad59f3
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 1153 rows and 84 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Keine optimale Lösung gefunden.
+Keine weitere Permutation gefunden für Reihe 1 gefunden.
+
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "RowPermutations.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1183 rows, 100 columns and 2513 nonzeros
+Model fingerprint: 0x9a7469ff
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 1183 rows and 100 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimale Lösung gefunden / Permutation für Reihe 2:
+Gesamtgewicht verletzter Klauseln mit definierter Gewichtung: 0.0
+Zuweisung der Puzzleteile zu den Feldern:
+Feld (0, 0) -> Puzzleteil 23 Rotation 3
+Feld (0, 1) -> Puzzleteil 19 Rotation 0
+Feld (0, 2) -> Puzzleteil 12 Rotation 1
+Feld (0, 3) -> Puzzleteil 14 Rotation 0
+Feld (0, 4) -> Puzzleteil 17 Rotation 3
+
+------------------------------------------------------------------------------------------
+/       4        //       5        //       5        //       2        //       1        /
+/       1        //       2        //       1        //       2        //       1        /
+/  0 0 (23) 2 3  //  3 1 (19) 2 1  //  1 1 (12) 2 3  //  3 1 (14) 1 5  //  5 2 (17) 0 0  /
+/       1        //       1        //       2        //       2        //       2        /
+/       5        //       2        //       2        //       4        //       5        /
+------------------------------------------------------------------------------------------
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "RowPermutations.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1184 rows, 100 columns and 2518 nonzeros
+Model fingerprint: 0x7903accd
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 1184 rows and 100 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimale Lösung gefunden / Permutation für Reihe 2:
+Gesamtgewicht verletzter Klauseln mit definierter Gewichtung: 0.0
+Zuweisung der Puzzleteile zu den Feldern:
+Feld (0, 0) -> Puzzleteil 17 Rotation 1
+Feld (0, 1) -> Puzzleteil 12 Rotation 0
+Feld (0, 2) -> Puzzleteil 19 Rotation 1
+Feld (0, 3) -> Puzzleteil 14 Rotation 2
+Feld (0, 4) -> Puzzleteil 23 Rotation 1
+
+------------------------------------------------------------------------------------------
+/       5        //       3        //       3        //       4        //       5        /
+/       2        //       2        //       1        //       2        //       1        /
+/  0 0 (17) 2 5  //  5 1 (12) 2 2  //  2 1 (19) 2 5  //  5 1 (14) 1 3  //  3 2 (23) 0 0  /
+/       1        //       1        //       2        //       2        //       1        /
+/       1        //       1        //       1        //       2        //       4        /
+------------------------------------------------------------------------------------------
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "RowPermutations.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1185 rows, 100 columns and 2523 nonzeros
+Model fingerprint: 0x6d80559e
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 1185 rows and 100 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimale Lösung gefunden / Permutation für Reihe 2:
+Gesamtgewicht verletzter Klauseln mit definierter Gewichtung: 0.0
+Zuweisung der Puzzleteile zu den Feldern:
+Feld (0, 0) -> Puzzleteil 23 Rotation 3
+Feld (0, 1) -> Puzzleteil 14 Rotation 0
+Feld (0, 2) -> Puzzleteil 19 Rotation 3
+Feld (0, 3) -> Puzzleteil 12 Rotation 2
+Feld (0, 4) -> Puzzleteil 17 Rotation 3
+
+------------------------------------------------------------------------------------------
+/       4        //       2        //       1        //       1        //       1        /
+/       1        //       2        //       2        //       1        //       1        /
+/  0 0 (23) 2 3  //  3 1 (14) 1 5  //  5 2 (19) 1 2  //  2 2 (12) 1 5  //  5 2 (17) 0 0  /
+/       1        //       2        //       1        //       2        //       2        /
+/       5        //       4        //       3        //       3        //       5        /
+------------------------------------------------------------------------------------------
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "RowPermutations.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1186 rows, 100 columns and 2528 nonzeros
+Model fingerprint: 0x63cca2ad
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 1173 rows and 95 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Keine optimale Lösung gefunden.
+Keine weitere Permutation gefunden für Reihe 2 gefunden.
+
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "RowPermutations.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1231 rows, 100 columns and 2609 nonzeros
+Model fingerprint: 0x9d304498
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimale Lösung gefunden / Permutation für Reihe 3:
+Gesamtgewicht verletzter Klauseln mit definierter Gewichtung: 0.0
+Zuweisung der Puzzleteile zu den Feldern:
+Feld (0, 0) -> Puzzleteil 15 Rotation 3
+Feld (0, 1) -> Puzzleteil 10 Rotation 0
+Feld (0, 2) -> Puzzleteil 24 Rotation 3
+Feld (0, 3) -> Puzzleteil 16 Rotation 1
+Feld (0, 4) -> Puzzleteil 2 Rotation 2
+
+------------------------------------------------------------------------------------------
+/       1        //       4        //       1        //       3        //       4        /
+/       2        //       2        //       2        //       1        //       1        /
+/  0 0 (15) 2 5  //  5 1 (10) 2 3  //  3 1 (24) 1 2  //  2 2 (16) 1 2  //  2 2 (2) 0 0   /
+/       1        //       1        //       2        //       1        //       2        /
+/       5        //       3        //       3        //       4        //       5        /
+------------------------------------------------------------------------------------------
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "RowPermutations.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1232 rows, 100 columns and 2614 nonzeros
+Model fingerprint: 0x9c365b8b
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 1227 rows and 99 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Keine optimale Lösung gefunden.
+Keine weitere Permutation gefunden für Reihe 3 gefunden.
+
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "RowPermutations.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1278 rows, 100 columns and 2648 nonzeros
+Model fingerprint: 0xa86df072
+Variable types: 0 continuous, 100 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+00]
+Presolve removed 1277 rows and 100 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Keine optimale Lösung gefunden.
+Keine weitere Permutation gefunden für Reihe 4 gefunden.
+
+Anzahl Permutationen in Reihe 0 = 1
+ID der Reihe: 0
+1 21 18 5 8  r:0 0 3 1 2 
+Anzahl Permutationen in Reihe 1 = 2
+ID der Reihe: 1
+11 7 9 20 3  r:2 2 0 3 0 
+ID der Reihe: 5
+3 20 9 7 11  r:2 1 2 0 0 
+Anzahl Permutationen in Reihe 2 = 4
+ID der Reihe: 2
+17 14 12 19 23  r:1 2 3 2 1 
+ID der Reihe: 6
+23 19 12 14 17  r:3 0 1 0 3 
+ID der Reihe: 7
+17 12 19 14 23  r:1 0 1 2 1 
+ID der Reihe: 8
+23 14 19 12 17  r:3 0 3 2 3 
+Anzahl Permutationen in Reihe 3 = 2
+ID der Reihe: 3
+2 16 24 10 15  r:0 3 1 2 1 
+ID der Reihe: 9
+15 10 24 16 2  r:3 0 3 1 2 
+Anzahl Permutationen in Reihe 4 = 1
+ID der Reihe: 4
+25 4 22 13 6  r:0 0 2 1 2 
+Set parameter Username
+Set parameter LicenseID to value 2602442
+Set parameter LogFile to value "OneSolverNxN.log"
+Academic license - for non-commercial use only - expires 2025-12-20
+Anzahl Variablen: 50
+Anzahl Klauseln für genau 1 Teil pro Feld: 5
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 290 rows, 322 columns and 924 nonzeros
+Model fingerprint: 0xcde2b8f2
+Variable types: 0 continuous, 322 integer (322 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 25.0000000
+Presolve removed 212 rows and 226 columns
+Presolve time: 0.00s
+Presolved: 78 rows, 96 columns, 264 nonzeros
+Variable types: 0 continuous, 96 integer (96 binary)
+
+Root relaxation: objective 0.000000e+00, 5 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (5 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 0 25 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+satisfiable
+field_0_piece_0
+field_1_piece_1
+field_2_piece_9
+field_3_piece_7
+field_4_piece_4
+Gesamtgewicht verletzter Klauseln mit definierter Gewichtung: 0.0
+Runtime:1.3211451 seconds
+
+Process finished with exit code 0
